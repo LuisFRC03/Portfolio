@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Projetos</title>
+</head>
+<body>
+ <!--  Animação do Background  -->
+ <section class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</section>
+
+<!--  Header  -->
+<header class="header">
+    <h3 class="logo">&lt;Luís/&gt;</h3>
+    <nav class="nav">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/luís-ribeiro-0754b5249/" target="_blank" class="svg-link"><img src="images/logotipo-do-linkedin.png" alt="linkedin"></a></li>
+            <li><a href="https://github.com/LuisFRC03" target="_blank" class="svg-link"><img src="images/github.png" alt="github"></a></li>
+            <li><a href="/index.html" class="pag-link">Home</a></li>
+            <li><a href="/projetos.html" class="pag-link">Projetos</a></li>
+            <li><a href="/sobre.html" class="pag-link">...</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <!--  Projetos  -->
+    <h1 class="h1-projetos">Projetos</h1>
+    <section class="slidershow">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <button class="img-button" data-modal-target="#modal1">
+                    <img class="img-slide" src="images/Banda-print.png" alt="">
+                </button>
+            </div>
+
+            <div class="modal" id="modal1">
+                <div class="modal-header">
+                    <div class="modal-titulo">Site de Banda</div>
+                    <button data-close-button class="botao-fechar">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Primeiro projeto voltado pra web que desenvolvi, a intenção era criar um site com links funcionais e com uma função de carrinho de compras simples na aba de "Loja".</p>
+                    <p class="texto-tecnologias">Tecnologias Usadas: HTML,CSS e JavaScript</p>
+                    <a href="Site-banda - Copia/index.html" target="_blank"><button class="projeto-button"><img class="icone-link" alt="icone-link" src="images/ligacao.png">Vizualizar</button></a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <button class="img-button" data-modal-target="#modal2">
+                    <img class="img-slide" src="images/Hotel-print.png" alt="">
+                </button>
+            </div>
+
+            <div class="modal" id="modal2">
+                <div class="modal-header">
+                    <div class="modal-titulo">Site de Hotel Genérico</div>
+                    <button data-close-button class="botao-fechar">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto desenvolvido com a intenção de utilizar e praticar Flexbox, tentando replicar(visualmente) um site de hotel e as funcionalidades que teria.</p>
+                    <p class="texto-tecnologias">Tecnologias Usadas: HTML e CSS</p>
+                    <a href="Hotel-Site - Copia/index.html" target="_blank"><button class="projeto-button"><img class="icone-link" alt="icone-link" src="images/ligacao.png">Vizualizar</button></a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <button class="img-button" data-modal-target="#modal3">
+                    <img class="img-slide" src="images/Calculadora-print.png" alt="">
+                </button>
+            </div>
+
+            <div class="modal" id="modal3">
+                <div class="modal-header">
+                    <div class="modal-titulo">Calculadora Dark/Light</div>
+                    <button data-close-button class="botao-fechar">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Calculadora simples, com uma função de troca entre modo Claro/Escuro.</p>
+                    <p class="texto-tecnologias">Tecnologias Usadas: HTML, CSS e JavaScript</p>
+                    <a href="Calculadora-Dark-Light - Copia/index.html" target="_blank"><button class="projeto-button"><img class="icone-link" alt="icone-link" src="images/ligacao.png">Vizualizar</button></a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <button class="img-button" data-modal-target="#modal4">
+                    <img class="img-slide" src="images/comingsoon.jpg" alt="">
+                </button>
+            </div>
+
+            <div class="modal" id="modal4">
+                <div class="modal-header">
+                    <div class="modal-titulo">EM BREVE</div>
+                    <button data-close-button class="botao-fechar">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                    <p class="texto-tecnologias"></p>
+                    <!--  <a href="Calculadora-Dark-Light - Copia/index.html" target="_blank"><button class="projeto-button"><img class="icone-link" alt="icone-link" src="images/ligacao.png">Vizualizar</button></a> -->
+                </div>
+            </div>
+
+            <div id="segundo-plano"></div>
+        </div>
+
+        <nav class="slide-nav">
+            <label for="slide1" class="nav-bar"></label>
+            <label for="slide2" class="nav-bar"></label>
+            <label for="slide3" class="nav-bar"></label>
+            <label for="slide4" class="nav-bar"></label>
+        </nav>
+    </section>
+</main>
+</body>
+</html>
