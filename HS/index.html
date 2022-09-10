@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <h3 class="logo-topo">HOTEL</h3>
+        <nav class=" nav nav-topo">
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#quartos">QUARTOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+                <li><a class="agendar" href="#reserva">RESERVE JÁ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Banner-->
+    <div id="inicio" class="banner">
+        <img src="imagens/banner.jpg" alt="banner"/>
+        <div class="banner-texto">
+            <h1 class="titulo-banner">HOTEL</h1>
+            <p class="desc-banner">Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <main class="container">    
+        <!--Quartos-->
+        <section id="quartos">
+            <h1 class="titulo-secao"> NOSSOS QUARTOS</h1>
+            <div class="container-quartos-destaque">
+                <figure class="figure-quartos">
+                    <img class="quartos-destaque-img" alt="quarto" src="imagens/quarto1.jpg" />
+                    <figcaption class="quartos-destaque-texto">Quarto Comfort</figcaption>
+                </figure>
+                <figure class="figure-quartos">
+                    <img class="quartos-destaque-img" alt="quarto" src="imagens/quarto4.jpg" />
+                    <figcaption class="quartos-destaque-texto">Quarto Simples Casal</figcaption>
+                </figure>
+            </div>
+            <div class="container-quartos-normais">
+                <figure class="figure-quartos">
+                    <img class="quartos-normais-img" alt="quarto" src="imagens/quarto3.jpg"/>
+                    <figcaption class="quartos-destaque-texto">Quarto simples</figcaption>
+                </figure>
+                <figure class="figure-quartos">
+                    <img class="quartos-normais-img" alt="quarto" src="imagens/quarto2.jpg"/>
+                    <figcaption class="quartos-destaque-texto">Quarto King Luxo</figcaption>
+                </figure>
+                <figure class="figure-quartos">
+                    <img class="quartos-normais-img" alt="quarto" src="imagens/quarto5.jpg"/>
+                    <figcaption class="quartos-destaque-texto">Quarto Vintage</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+
+        <!--Serviços-->
+        <section id="servicos">
+            <h1 class="titulo-secao">NOSSOS SERVIÇOS</h1>
+            <div class="container-servicos">
+                <figure>
+                    <img class="service-img" alt="food" src="imagens/services1.jpg"/>
+                    <br/>
+                    <figcaption class="service-texto">
+                        <h2>Restaurante</h2><br/>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><br/>
+                        <button class="service-button"><a class="sb-link" href="#">Saiba mais...</a></button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="service-img" alt="spa" src="imagens/services2.jpg"/>
+                    <br/>
+                    <figcaption class="service-texto">
+                        <h2>SPA</h2><br/>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><br/>
+                        <button class="service-button"><a class="sb-link" href="#">Saiba mais...</a></button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="service-img" alt="academia" src="imagens/services3.jpg"/>
+                    <br/>
+                    <figcaption class="service-texto">
+                        <h2>Academia</h2><br/>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><br/>
+                        <button class="service-button"><a class="sb-link" href="#">Saiba mais...</a></button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="service-img" alt="jogos" src="imagens/services4.jpg"/>
+                    <br/>
+                    <figcaption class="service-texto">
+                        <h2>Sala de Jogos</h2><br/>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><br/>
+                        <button class="service-button"><a class="sb-link" href="#">Saiba mais...</a></button>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!--Reserva-->
+        <section class="container-reserva" id="reserva">
+            <h1 class="titulo-secao">RESERVA</h1>
+            <p>Faça sua reserva ou cheque pela disponibilidade de datas.</p>
+            <form target="_blank">
+                <div class="form-input">
+                    <label><img class="reserva-img" alt="data" src="imagens/calendar.png">Check-In</label>
+                    <input class="input-reserva" type="date" placeholder="DD/MM/AAAA" name="check-in">
+                </div>
+                <div class="form-input">
+                    <label><img class="reserva-img" alt="data" src="imagens/calendar.png">Check-Out</label>
+                    <input class="input-reserva" type="date" placeholder="DD/MM/AAAA" name="check-out">
+                </div>
+                <div class="form-input">
+                    <label><img class="reserva-img" alt="adulto" src="imagens/man.png">Adultos</label>
+                    <input class="input-reserva" type="number" placeholder="0" name="adultos">
+                </div>
+                <div class="form-input">
+                    <label><img class="reserva-img" alt="crianca" src="imagens/children.png">Crianças</label>
+                    <input class="input-reserva" type="number" placeholder="0" name="criancas">
+                </div>
+                <div class="form-input">
+                    <label><img class="reserva-img" alt="lupa" src="imagens/lupa.png">Checar</label>
+                    <button class="reserva-button">RESERVAR</button>
+                </div>
+            </form>
+        </section>
+
+        <!--Contato-->
+        <section class="container-contato" id="contato">
+            <h1 class="titulo-secao">ENTRE EM CONTATO</h1>
+            <div class="contato-info">
+                <p>Caso possua alguma dúvida ou sugestão, por favor entre em contato.</p>
+                <p><img class="icones-contato" alt="local" src="imagens/sinal-de-localizacao.png">Marília, SP</p>
+                <p><img class="icones-contato" alt="telefone" src="imagens/telephone-call.png">Telefone: 0000-0000</p>
+                <p><img class="icones-contato" alt="email" src="imagens/email.png">Email: hotel123@guugle.com</p>
+            </div>
+            <fieldset class="fieldset">
+                <form target="_blank">
+                    <p><input class="input" type="text" placeholder="Nome" required="" name="Nome"></p>
+                    <p><input class="input" type="text" placeholder="Email" required="" name="Email"></p>
+                    <p><input class="input" type="text" placeholder="Mensagem" required="" name="Mensagem"></p>
+                    <p><button class="contato-button" type="submit">ENVIAR</button></p>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <h4>Conecte-se Conosco</h4>
+        <nav>
+            <div class="div-icones">
+                <a href="#"><img class="icones" alt="facebook" src="imagens/facebook.png"/></a>
+                <a href="#"><img class="icones" alt="snapchat" src="imagens/snapchat.png"/></a>
+                <a href="#"><img class="icones" alt="instagram" src="imagens/instagram.png"/></a>
+                <a href="#"><img class="icones" alt="twitter" src="imagens/twitter.png"/></a>
+                <a href="#"><img class="icones" alt="linkedin" src="imagens/logotipo-do-linkedin.png"/></a>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
