@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepageStyles.css"/>
+    <script src="js/carrosel.js" defer></script>
+    <script src="js/cardCarrosel.js" defer></script>
+    <!-- Boxicons font link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>e-commerce</title>
+</head>
+<body>
+    <!-- Header  -->
+    <header class="header">
+
+        <!-- Nav01  -->
+        <nav class="nav1"> 
+
+            <!-- Parte Esquerda - Categorias -->
+            <ul class="listaEsquerda">
+                <li><a class="linksNav1" href="">MASCULINO</a></li>
+                <li><a class="linksNav1" href="">FEMININO</a></li>
+                <li><a class="linksNav1" href="">INFANTIL</a></li>
+                <li><a class="linksNav1" href="">DECORAÇÃO</a></li>
+            </ul>
+            <p class="logo"><a class="linksNav1" href="">LOGO</a></p>
+
+            <!-- Parte Direita - User, Sacola e Favoritos -->
+            <ul class="listaDireita"> 
+                <div class="userDropdown">
+                    <li><a class="linksNav1" href=""><i class='bx bxs-user listaDireitaIcons'></i></a></li>
+                    <div class="userDropdownConteudo">
+                        <span class="conteudoTitulo userName">Olá, NOME</span>
+                        <a class="linkDropdownConteudo" href="">Meu Perfil</a>
+                        <a class="linkDropdownConteudo" href="">Notificações</a>
+                        <a class="linkDropdownConteudo" href="">Cupons</a>
+                        <a class="linkDropdownConteudo" href="">Vistos Recentemente</a>
+                        <a class="linkDropdownConteudo linkSair" href="">Sair</a>
+                    </div>
+                </div>
+                <li><a class="linksNav1" href=""><i class='bx bxs-cart listaDireitaIcons' ></i></a></li>
+                <li><a class="linksNav1" href=""><i class='bx bxs-heart listaDireitaIcons'></i></a></li>
+            </ul>
+        </nav>
+
+        <!-- Nav02 -->
+        <nav class="nav2">
+
+            <!-- Categorias/Dropdown -->
+            <ul>
+                <div class="nav2Dropdown">
+                    <li>Novidades</li>
+                    <div class="conteudoDropdown">
+                        <div class="conteudoGrid">
+                            <div>
+                                <span class="conteudoTitulo">NOVAS PEÇAS</span>
+                                <a class="linkDropdownConteudo" href="">Novas Camisetas</a>
+                                <a class="linkDropdownConteudo" href="">Novas Calças</a>
+                                <a class="linkDropdownConteudo" href="">Novos Acessórios</a>
+                            </div>
+                            <div>
+                                <span class="conteudoTitulo">COLEÇÕES</span>
+                                <a class="linkDropdownConteudo" href="">Estações</a>
+                                <a class="linkDropdownConteudo" href="">Temporada de Festas</a>
+                                <a class="linkDropdownConteudo" href="">Outono/Inverno 2023</a>
+                                <a class="linkDropdownConteudo" href="">Primavera/Verão 2023</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span>|</span>
+                  <div class="nav2Dropdown">
+                    <li>Camisetas</li>
+                    <div class="conteudoDropdown">
+                        <div>
+                            <span class="conteudoTitulo">CAMISETAS</span>
+                            <a class="linkDropdownConteudo" href="">Tradicional</a>
+                            <a class="linkDropdownConteudo" href="">Oversized</a>
+                            <a class="linkDropdownConteudo" href="">Longline</a>
+                            <a class="linkDropdownConteudo" href="">Polo</a>
+                            <a class="linkDropdownConteudo" href="">Regata</a>
+                        </div>
+                    </div>
+                </div>
+                <span>|</span>
+                <div class="nav2Dropdown">
+                    <li>Calças</li>
+                    <div class="conteudoDropdown">
+                        <div>
+                            <span class="conteudoTitulo">ROUPAS DE BAIXO</span>
+                            <a class="linkDropdownConteudo" href="">Calças</a>
+                            <a class="linkDropdownConteudo" href="">Shorts</a>
+                            <a class="linkDropdownConteudo" href="">Bermudas</a>
+                            <a class="linkDropdownConteudo" href="">Jeans</a>
+                            <a class="linkDropdownConteudo" href="">Saias</a>
+                            <a class="linkDropdownConteudo" href="">Vestidos</a>
+                        </div>
+                    </div>
+                </div>
+                <span>|</span>
+                <div class="nav2Dropdown">
+                    <li>Roupas de Banho</li>
+                    <div class="conteudoDropdown">
+                        <div class="conteudoGrid">
+                            <div>
+                                <span class="conteudoTitulo">PRAIA</span>
+                                <a class="linkDropdownConteudo" href="">Calções de banho</a>
+                                <a class="linkDropdownConteudo" href="">Biquíni</a>
+                                <a class="linkDropdownConteudo" href="">Sungas</a>
+                                <a class="linkDropdownConteudo" href="">Maiôs</a>
+                            </div>
+                            <div>
+                                <span class="conteudoTitulo">ÍNTIMO</span>
+                                <a class="linkDropdownConteudo" href="">Masculino</a>
+                                <a class="linkDropdownConteudo" href="">Feminino</a>
+                                <a class="linkDropdownConteudo" href="">Conjuntos de Pijama</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span>|</span>
+                <div class="nav2Dropdown">
+                    <li>Acessórios</li>
+                    <div class="conteudoDropdown">
+                        <div class="conteudoGrid">
+                            <div>
+                                <span class="conteudoTitulo">JÓIAS</span>
+                                <a class="linkDropdownConteudo" href="">Braceletes</a>
+                                <a class="linkDropdownConteudo" href="">Aneis</a>
+                                <a class="linkDropdownConteudo" href="">Colares</a>
+                                <a class="linkDropdownConteudo" href="">Brincos</a>
+                                <a class="linkDropdownConteudo" href="">Jóias para corpo</a>
+                            </div>
+                            <div>
+                                <span class="conteudoTitulo">ACESSÓRIOS</span>
+                                <a class="linkDropdownConteudo" href="">Cintos</a>
+                                <a class="linkDropdownConteudo" href="">Bolsas</a>
+                                <a class="linkDropdownConteudo" href="">Chapéus</a>
+                                <a class="linkDropdownConteudo" href="">Óculos e acessórios para os olhos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Caixa de pesquisa -->
+                <div class="searchBox">
+                    <input type="text" placeholder="Pesquisar..."> 
+                    <i class='bx bx-search-alt-2'></i>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main  -->
+    <main class="container">
+
+        <!-- Carrosel -->
+        <section class="carrosel">
+
+            <button class="botao-carrosel botao-carrosel--left is-hidden">&#10232;</button>
+
+            <div class="carroselContainer">
+                <ul class="track">
+                    <li class="slide current-slide">
+                        <img src="imagens/modelo01.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                        <img src="imagens/modelo02.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                        <img src="imagens/furniture.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="botao-carrosel botao-carrosel--right">&#10233;</button>
+
+            <div class="carroselNav">
+                <button class="carroselNavBotoes  current-slide"></button>
+                <button class="carroselNavBotoes"></button>
+                <button class="carroselNavBotoes"></button>
+            </div>
+        </section>
+
+
+        <h2 class="sectionTitle">Compre por Categoria</h2>
+        <section class="comprePorCategoriaGrid"> 
+            <!--  Container categorias  -->
+            <div class="categoriasGrid">
+                CAMISAS
+            </div>
+            <div class="categoriasGrid">
+                REGATAS
+            </div>
+            <div class="categoriasGrid">
+                MOLETONS
+            </div>
+            <div class="categoriasGrid">
+                JEANS
+            </div>
+            <div class="categoriasGrid">
+                SHORTS
+            </div>
+            <div class="categoriasGrid">
+                VESTIDOS
+            </div>
+            <div class="categoriasGrid">
+                PRAIA
+            </div>
+            <div class="categoriasGrid">
+                COLARES
+            </div>
+            <div class="categoriasGrid">
+                ÓCULOS
+            </div>
+            <div class="categoriasGrid">
+                BOLSAS
+            </div>
+            <div class="categoriasGrid">
+                SAPATOS
+            </div>
+            <div class="categoriasGrid">
+                DECORAÇÃO
+            </div>
+        </section>
+
+        <!-- Carrosel de Cards (Mais Vendidos) -->
+        <section class="carroselCards">
+            <h2 class="sectionTitle">Mais Vendidos</h2>
+        
+            <div class="containerCards">
+                <button class="cardPrevButton"><img src="imagens/arrowhead.png" alt=""></button>
+                <button class="cardNextButton"><img src="imagens/arrowhead.png" alt=""></button>
+                <div class="card">
+                    <div class="cardFigure">
+                        <img src="imagens/card1.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto">R$19,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span class="desconto">&#8595; 70% OFF</span>
+                        <img src="imagens/card2.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto"><del>R$99,90</del>  R$29,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span class="desconto">&#8595; 50% OFF</span>
+                        <img src="imagens/card3.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto"><del>R$140,00</del>  $69,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span></span>
+                        <img src="imagens/card4.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto">R$29,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span class="desconto">&#8595; 60% OFF</span>
+                        <img src="imagens/card5.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto"><del>R$60,00</del>  $23,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span></span>
+                        <img src="imagens/card6.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto">R$129,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span class="desconto">&#8595; 40% OFF</span>
+                        <img src="imagens/card7.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto"><del>R$59,90</del>  $35,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span></span>
+                        <img src="imagens/card8.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto">R$24,90</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardFigure">
+                        <span class="desconto">&#8595; 20% OFF</span>
+                        <img src="imagens/card9.jpg" alt="" class="cardImage">
+                        <button class="cardBotao">Adicionar aos Favoritos</button>
+                    </div>
+                    <div class="cardInfo">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p class="preçoProduto"><del>R$349,90</del>  $279,90</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Principais Ofertas -->
+        <section class="principaisOfertas">
+            <h2 class="sectionTitle">Principais Ofertas</h2>
+            <div class="ofertasContainer">
+                <figure class="ofertasImagensContainer">
+                    <a href="">
+                        <img class="ofertasImagensFront" alt="" src="imagens/oferta1.jpg">
+                    </a>
+                    <figcaption class="ofertasDescrição">
+                        <p>Manga Longa Nº3</p>
+                        <p class="preçoProduto"><del>R$ 49,90</del> R$39,90</p>
+                    </figcaption>
+                </figure>
+                <figure class="ofertasImagensContainer"> 
+                    <a href="">
+                        <img class="ofertasImagensFront" alt="" src="imagens/oferta2.jpg">
+                    </a>
+                    <figcaption class="ofertasDescrição">
+                        <p>Agasalho Gato da Sorte</p>
+                        <p class="preçoProduto"><del>R$ 69,90</del> R$59,90</p>
+                    </figcaption>
+                </figure>
+                <figure class="ofertasImagensContainer">
+                    <a href="">
+                        <img class="ofertasImagensFront" alt="" src="imagens/oferta3.jpg">
+                    </a>
+                    <figcaption class="ofertasDescrição">
+                        <p>Manga Longa Caveira</p>
+                        <p class="preçoProduto"><del>R$ 49,90</del> R$39,90</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+       <p>Copyright © 2021-nomedaempresa.com.br. Todos os direitos reservados. Os preços, promoções, condições de pagamento, frete e produtos são válidos exclusivamente para compras realizadas via internet. Fotos meramente ilustrativas. Nome da Empresa Ltda. Me CNPJ: 11.111.111/0001-11 - Endereço: Rua Exemplo, 00 - Exemplo - EX</p>
+       <p class="bottom-logo">LOGO</p>
+    </footer>
+</body>
+</html>
