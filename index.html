@@ -8,40 +8,199 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <!--  Animação do Background  -->
-    <section class="background">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </section>
 
     <!--  Header  -->
     <header class="header">
         <h3 class="logo">&lt;Luís/&gt;</h3>
         <nav class="nav">
             <ul>
-                <li><a href="https://www.linkedin.com/in/luís-ribeiro-0754b5249/" target="_blank" class="svg-link"><img src="images/logotipo-do-linkedin.png" alt="linkedin"></a></li>
-                <li><a href="https://github.com/LuisFRC03" target="_blank" class="svg-link"><img src="images/github.png" alt="github"></a></li>
-                <li><a href="/index.html" class="pag-link">Home</a></li>
-                <li><a href="/projetos.html" class="pag-link">Projetos</a></li>
-                <li><a href="/sobre.html" class="pag-link">...</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/luís-ribeiro-0754b5249/" target="_blank" class="svg-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 510 510" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M459 0H51C22.95 0 0 22.95 0 51v408c0 28.05 22.95 51 51 51h408c28.05 0 51-22.95 51-51V51c0-28.05-22.95-51-51-51zM153 433.5H76.5V204H153v229.5zm-38.25-272.85c-25.5 0-45.9-20.4-45.9-45.9s20.4-45.9 45.9-45.9 45.9 20.4 45.9 45.9-20.4 45.9-45.9 45.9zM433.5 433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25 17.851-38.25 38.25V433.5H204V204h76.5v30.6c12.75-20.4 40.8-35.7 63.75-35.7 48.45 0 89.25 40.8 89.25 89.25V433.5z" fill="" opacity="1" data-original="#000000" class=""></path></g></svg>
+                    </a>
+                    <a href="https://github.com/LuisFRC03" target="_blank" class="svg-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z" fill="" opacity="1" data-original="#000000" class=""></path></g></svg>
+                    </a>
+                </li>
+                <li><a href="#inicio" class="pag-link">Home</a></li>
+                <li><a href="#projetos" class="pag-link">Projetos</a></li>
+                <li><a href="#sobre" class="pag-link">...</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
-        <!--  Home  -->
-        <section class="inicio-container">
+        <!--  Inicio  -->
+        <section id="inicio" class="inicio-container">
+            <!-- Animação dentro da primeira dobra -->
+            <div class="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <h1 class="titulo-inicio">Olá,</h1>
-            <p class="desc-inicio">Seja bem-vindo ao meu Portfolio, aqui você encontra alguns dos projetos pessoais que desenvolvi e outros em que ainda estou trabalhando.</p>
-            <a href="/sobre.html"><button type="button" class="contato-button">Entre em Contato</button></a>  
+            <p class="desc-inicio">Seja bem-vindo ao meu Portfolio!</p>
+            <p class="desc-inicio">
+                Sou um graduado em Ciência da Computação de 22 anos, apaixonado por programação e sempre disposto a aprender coisas novas.
+                <br>
+                Sou especializado em desenvolvimento frontend, transformando ideias em experiências online fluidas e com alta conversão.
+            </p>
+            
+            <a href="#sobre">
+                <button type="button" class="contato-button">Entre em contato</button>
+            </a>
+        </section>
+
+        <!--  Projetos  -->
+        <section id="projetos" class="projetos-container">
+            <h1 class="h1-projetos">Projetos</h1>
+            <section class="mosaico-projetos">
+            <!-- Card 1 -->
+            <div class="card-projeto">
+                <img class="card-img" src="images/perfitthumb.svg" alt="Perfit">
+                <div class="card-overlay">
+                <h3>Perfit</h3>
+                <p>
+                    Site desenvolvido para a Perfit, e‑commerce de moda feminina com foco em tecidos de qualidade, estilo e conforto diário.
+                    Pensado para evidenciar coleções e tendências, com visual atrativo, filtros por cor e categoria que facilitam a busca do usuário.
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://www.perfit.com.br/" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card-projeto">
+                <img class="card-img" src="images/bombaseciathumb.svg" alt="BombaseCia">
+                <div class="card-overlay">
+                <h3>Bombas e Cia</h3>
+                <p>
+                    Site desenvolvido para a Bombas e Cia, distribuidora brasileira com mais de 20 anos de experiência em soluções hidráulicas e 
+                    bombas submersas para poços e sistemas de pressurização. 
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://loja.bombasecia.com.br/" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card-projeto">
+                <img class="card-img" src="images/engecercasthumb.svg" alt="Engecercas">
+                <div class="card-overlay">
+                <h3>Engecercas</h3>
+                <p>
+                    Site desenvolvido para a EngeCercas, e-commerce brasileiro de cercas, gradis e acessórios. 
+                    Com foco em agilidade, segurança e acessibilidade, a plataforma foi criada para transmitir confiança e facilitar a proteção de cada projeto.
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://www.engecercas.com.br/" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card-projeto">
+                <img class="card-img" src="images/oexthumb.svg" alt="Oex">
+                <div class="card-overlay">
+                <h3>Oex Brasil</h3>
+                <p>
+                    Site desenvolvido para a OEX Brasil, marca referência em tecnologia e acessórios.
+                    A plataforma foi criada para destacar seus produtos com performance, design e acessibilidade.
+                    Pensado para atender públicos gamer, corporativo e do dia a dia.
+                    Um site moderno e funcional, alinhado à identidade da marca.
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://www.oexbrasil.com.br/?srsltid=AfmBOopUC3uoSHobQMEpxPd1EDd3SalG0Mb2lhlTLxr_SeXa1331vjmB" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <img class="card-img" src="images/stockupthumb.svg" alt="Stock Up">
+                <div class="card-overlay">
+                <h3>Stock up</h3>
+                <p>
+                    Site desenvolvido para a Stock Up, empresa brasileira especializada em equipamentos gastronômicos e utensílios industriais.
+                    Criada para destacar produtos como fornos, misturadores, amassadeiras e mais, com foco em variedade, 
+                    qualidade e boas oportunidades para bares, restaurantes e confeitarias. 
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://www.stockup.com.br/" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <img class="card-img" src="images/agrobombasthumb.svg" alt="Agrobombas">
+                <div class="card-overlay">
+                <h3>Agrobombas</h3>
+                <p>
+                    Site desenvolvido para a Agrobombas, distribuidora brasileira especializada em bombas hidráulicas, de água, ar e sistemas de irrigação.
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://www.agrobombas.com.br/" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <img class="card-img" src="images/constamedthumb.svg" alt="Constamed">
+                <div class="card-overlay">
+                <h3>Constamed</h3>
+                <p>
+                    Site desenvolvido para a Constamed, e‑commerce de equipamentos médicos e hospitalares.
+                    Criado para oferecer produtos de saúde, como cadeiras de rodas motorizadas, oxigenoterapia e materiais hospitalares, com foco em mobilidade e bem‑estar.
+                </p>
+                <p class="texto-tecnologias">Tecnologias utilizadas: HTML, CSS, JavaScript e React</p>
+                <a href="https://www.constamed.com.br/" target="_blank" class="projeto-button">
+                    <img class="icone-link" src="images/ligacao.png" alt="Ícone"> Visualizar
+                </a>
+                </div>
+            </div>
+
+            </section>
+        </section>
+
+        <!--  Sobre  -->
+        <section id="sobre" class="sobre-container">
+            <div class="bloco-div">
+                <h2>Sobre Mim</h2>
+                <p>Meu nome é Luís, sou estudante de ciência da computação, me interessei por programação em 2021, tomei gosto pela área de desenvolvimento web e a partir de então busco me aperfeiçoar cada vez mais no ramo. </p>
+                <a href="/images/curriculo.pdf" download><button class="curriculo-button"><img class="icone-link" alt="icone-link" src="images/download-direto.png">Currículo</button></a>
+            </div>
+            <div class="bloco-div">
+                <h2>Contato</h2>
+                <p><img class="email-icone" alt="email" src="images/o-email.png">luisfelipecampos4@gmail.com</p>
+                <p><img class="email-icone" alt="phone" src="images/telephone-call.png"> (+14) 99907-0000</p>
+            </div>
+            <div class="bloco-div">
+                <h2>Formação Acadêmica</h2>
+                <p>
+                    Bacharel em Ciência da Computação &#8212; Univem <br> 2020-2024
+                </p>
+                <p>
+                    Michigan English Test (C1) <br> 2018
+                </p>
+                <p>
+                    CS50x 2022
+                </p>
+            </div>
         </section>
     </main>
 </body>
