@@ -31,8 +31,4 @@ cd Portfolio
 Publicado gratuitamente por meio do GitHub Pages — solução prática para portfólios estáticos, com URL amigável e deploy contínuo.
 
 ## 🔧 Melhorias futuras
-Adicionar relatórios de desempenho com Lighthouse.
-
-Incluir meta tags, atributos alt em imagens e formatos modernos (ex.: WebP).
-
 Avaliar uso de domínio personalizado para apresentação ainda mais profissional.
